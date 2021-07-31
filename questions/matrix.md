@@ -13,7 +13,7 @@ Output: `[[0,0,0],[0,1,0],[0,0,0]]`
 
 Using dynamic programming, we can calculate the distance of current cells if we know the nearest distance of their neighbors. 
 - Calculate the distance from top, left.
-- Calculate the distance fromt bottom, right
+- Calculate the distance fromt bottom, right.
 
 ```go
 func updateMatrix(mat [][]int) [][]int {
@@ -73,6 +73,9 @@ func min(left int, right int) int {
     return left
 }
 ```
+### Solution Analysis
+- Time complexity: O(rows x columns)
+- Space complexity: O(1), no extra space required other than the output
 
 <hr>
 
