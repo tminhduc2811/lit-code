@@ -62,5 +62,5 @@ func min(left int, right int) int {
 }
 ```
 
-Complexity O(n)
-Space complexity O(n)
+- Complexity O(n)
+- Space complexity O(n)
