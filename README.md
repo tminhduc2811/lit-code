@@ -1,4 +1,4 @@
-## :fire: Lit code 
+# :fire: Lit code :fire:
 - A repository to store my leetcode answers
 ### Questions
 - [Matrix](https://github.com/tminhduc2811/lit-code/blob/main/questions/matrix.md)
