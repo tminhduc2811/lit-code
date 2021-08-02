@@ -1,5 +1,6 @@
 # :fire: Lit code :fire:
 - A repository to store my leetcode answers
+- Road to the moon :rocket:
 ### Questions
 
 #### Day 1
