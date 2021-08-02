@@ -25,8 +25,15 @@ func largestIsland(grid [][]int) int {
     for i := 0; i < len(grid); i++ {
         for j := 0; j < len(grid[i]); j++ {
             if grid[i][j] == 1 {
+                // Set the cell's value with group label
                 grid[i][j] = groupIndex
-                total := 1 + markAsGroup(grid, i + 1, j, groupIndex) + markAsGroup(grid, i - 1, j, groupIndex) + markAsGroup(grid, i, j + 1, groupIndex) + markAsGroup(grid, i, j - 1, groupIndex)
+
+                total := 1 + 
+                  markAsGroup(grid, i + 1, j, groupIndex) +                            
+                  markAsGroup(grid, i - 1, j, groupIndex) + 
+                  markAsGroup(grid, i, j + 1, groupIndex) + 
+                  markAsGroup(grid, i, j - 1, groupIndex)
+
                 groupTotal[groupIndex] = total
                 groupIndex++
             }
@@ -71,7 +78,11 @@ func markAsGroup(grid [][]int, i int, j int, groupIndex int) int {
         return 0 
     }
     grid[i][j] = groupIndex
-    return 1 + markAsGroup(grid, i + 1, j, groupIndex) + markAsGroup(grid, i - 1, j, groupIndex) + markAsGroup(grid, i, j + 1, groupIndex) + markAsGroup(grid, i, j - 1, groupIndex)
+    return 1 + 
+      markAsGroup(grid, i + 1, j, groupIndex) + 
+      markAsGroup(grid, i - 1, j, groupIndex) + 
+      markAsGroup(grid, i, j + 1, groupIndex) + 
+      markAsGroup(grid, i, j - 1, groupIndex)
 }
 
 func getMax(a int, b int) int {
