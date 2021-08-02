@@ -12,3 +12,4 @@
 - [Making A Large Island](https://github.com/tminhduc2811/lit-code/blob/main/questions/marking-a-large-island.md)
 - [Two Sum](https://github.com/tminhduc2811/lit-code/blob/main/questions/two-sum.md)
 - [Pow(x, n)](https://github.com/tminhduc2811/lit-code/blob/main/questions/my_pow.md)
+- [Spiral Matrix](https://github.com/tminhduc2811/lit-code/blob/main/questions/spiral_matrix.md)
