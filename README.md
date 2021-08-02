@@ -5,4 +5,4 @@
 - [Map Sum Pairs](https://github.com/tminhduc2811/lit-code/blob/main/questions/map-sum-pair.md)
 - [Trapping Rain Water](https://github.com/tminhduc2811/lit-code/blob/main/questions/trapping-rain-water.md)
 - [Making A Large Island](https://github.com/tminhduc2811/lit-code/blob/main/questions/marking-a-large-island.md)
-
+- [Two Sum](https://github.com/tminhduc2811/lit-code/blob/main/questions/two-sum.md)
