@@ -37,7 +37,7 @@ Using DP with 2 states:
 - isPalindrome `[len(s)][len(s)]bool`: Whether the string from i to j is a valid palindrome.
 - minCut `[]int`: minCut[i] means the minimum number of cuts from 0 to i
 
-Interate through the string with `left` and `right` pointers
+Iterate through the string with `left` and `right` pointers
 
 If two chars are equal `(s[left] == s[right)` , there can be two cases:
 - Even: `right > left <= 1`, means `right = left` or `right` next to `left`, eg: `aa`
